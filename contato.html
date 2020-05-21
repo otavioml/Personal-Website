@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+        <title>Contato</title>
+    
+    </head>
+
+
+    <body>
+
+        <header>
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-custom"> <!--bg = background-->
+
+                <div class="container">
+    
+    
+                    <a class="navbar-brand h1 mb-0" href="#">Otávio Meira</a>
+                    
+                    <button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="navbarSite">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarSite">
+    
+                        <ul class="navbar-nav mr-auto">
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Homepage</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="sobre.html">Sobre</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="contato.html">Contato</a>
+                            </li>
+    
+                        </ul>
+    
+                        <ul class="navbar-nav ml-auto">
+    
+                            <li class="nav-item dropdown">
+    
+                                <a class="nav-link dropdon-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                                    Social 👇
+                                </a>
+    
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="https://www.facebook.com/otavio.meiralima/">Facebook</a>
+                                    <a class="dropdown-item" href="https://www.instagram.com/_otavioml/?hl=pt-br">Instagram</a>
+                                    <a class="dropdown-item" href="https://www.linkedin.com/in/ot%C3%A1vio-de-meira-lima-393a8719a/">LinkedIn</a>
+                                </div>
+    
+                            </li>
+                            
+                        </ul>
+    
+                    </div>
+    
+                </div>
+    
+            </nav>
+
+        </header>
+
+
+        <div id="modal">
+            <div class="content">
+                <h1>Entre em contato comigo!</h1>
+
+                <form action="">
+                    <div class="imput-wrapper">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="Telefone">Telefone</label>
+                        <input type="text" name="Telefone" placeholder="(00) 90000-0000">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="Email">Email</label>
+                        <input type="text" name="Email">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="mensagem">Digite uma mensagem</label>
+                        <textarea name="mensagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit">
+                </form>
+
+            </div>
+        </div>
+
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    </body>
+
+
+
+</html>
+
+
+
